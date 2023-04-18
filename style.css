@@ -1,0 +1,75 @@
+body{
+    background-color: #fffCF2;
+    color: #252422;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    display: inline;
+    position: fixed;    
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: #403D39;
+    opacity: .90;
+}
+.logo img{
+    width: 100px;
+    height: 75px;
+    margin-left: 100px;
+}
+.busca{
+    position: absolute;
+    top: 30%;
+    margin-left: 250px;
+}
+.busca .pesquisa{
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-color: 403D39;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.busca .enviar{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    width: 75px;
+    height: 34px;
+    background-color: #CCC5B9;
+    border-style: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nav-bar{
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+.nav-bar ul{
+    display: inline;
+    list-style: none;
+    overflow: hidden;
+
+}
+.nav-bar ul li{
+    float: left;
+    margin: 0 30px 30px;
+
+}
+.nav-bar ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    color: #CCC5B9;
+    background-color: #252422;
+    border-radius: 20px;
+}
