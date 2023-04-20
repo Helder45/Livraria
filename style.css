@@ -22,24 +22,24 @@ body{
 }
 .busca{
     position: absolute;
-    top: 30%;
+    top: 25%;
     margin-left: 250px;
 }
 .busca .pesquisa{
     width: 300px;
-    height: 30px;
+    height: 40px;
     border-style: solid;
     border-color: 403D39;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     
 }
 .busca .enviar{
     position: absolute;
     cursor: pointer;
     top: 0;
-    width: 75px;
-    height: 34px;
+    width: 50px;
+    height: 44px;
     background-color: #CCC5B9;
     border-style: none;
     border-top-right-radius: 20px;
