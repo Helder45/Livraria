@@ -10,13 +10,12 @@ body{
     display: inline;
     position: fixed;    
     width: 100%;
-    height: 80px;
+    height: max-content;
     padding: 10px;
     background-color: #403D39;
     opacity: .90;
 }
 .logo{
-    float: left;
     left: 5%;
     width: 300px;
     height: 75px;
@@ -82,8 +81,9 @@ body{
 }
 .rodape{
     position: fixed;
+    float: left;
     width: 100%;
-    height: 200px;
+    height: max-content;
     padding: 10px;
     left: 0;
     bottom: 0;
@@ -91,15 +91,17 @@ body{
     opacity: .90;
 }
 .links-missao{
+    display: block;
     float: left;
     top: 25%;
-    left: 5%;
     height: max-content;
 }
 .links ul{
+    display: block; 
+
+    float: left;
     list-style: none;
     overflow: hidden;
-
 }
 .links ul li{
     float: left;
@@ -110,7 +112,8 @@ body{
     display: block;
     color: black;
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px;
+    padding-left: 15px;
     text-decoration: none;
 }
 .links ul li a:hover{
@@ -119,10 +122,46 @@ body{
     border-radius: 20px;
 }
 .rodape .texto{
-    width: 300px;
     float: left;
-    margin-left: 5%;
+    width: 300px;
+    margin-left: 2%;
 }
 .texto p{
     text-align: justify;
+}
+.patrocinadores{
+    position: relative;
+    float: left;
+    bottom: 0;
+    width: 500px;
+    height: max-content;
+    border: 3px solid #73a;
+}
+.patrocinadores .titulo-pat{
+    width: max-content;
+    height: 100px;
+    border: 3px solid #73aaac;
+}
+.patrocinadores .titulo-pat h2{
+    text-align: center;
+}
+.pat1 img{
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+.pat2 img{
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+.pat3 img{
+    float: left;    
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+.pat4 img{
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
 }
