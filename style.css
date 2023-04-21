@@ -15,15 +15,21 @@ body{
     background-color: #403D39;
     opacity: .90;
 }
-.logo img{
-    width: 100px;
+.logo{
+    float: left;
+    left: 5%;
+    width: 300px;
     height: 75px;
-    margin-left: 100px;
+}
+.logo img{
+    display: block;
+    width: max-content;
+    height: max-content;
 }
 .busca{
     position: absolute;
     top: 25%;
-    margin-left: 250px;
+    margin-left: 325px;
 }
 .busca .pesquisa{
     width: 300px;
@@ -49,12 +55,13 @@ body{
     position: absolute;
     top: 25%;
     right: 0;
+    height: 50px;
 }
 .nav-bar ul{
     display: inline;
     list-style: none;
     overflow: hidden;
-
+    height: max-content;
 }
 .nav-bar ul li{
     float: left;
@@ -83,10 +90,11 @@ body{
     background-color: #403D39;
     opacity: .90;
 }
-.links{
-    top: 25%;
+.links-missao{
     float: left;
+    top: 25%;
     left: 5%;
+    height: max-content;
 }
 .links ul{
     list-style: none;
@@ -95,6 +103,8 @@ body{
 }
 .links ul li{
     float: left;
+    margin: 0;
+    padding: 0;
 }
 .links ul li a{
     display: block;
@@ -107,4 +117,12 @@ body{
     color: #CCC5B9;
     background-color: #252422;
     border-radius: 20px;
+}
+.rodape .texto{
+    width: 300px;
+    float: left;
+    margin-left: 5%;
+}
+.texto p{
+    text-align: justify;
 }
