@@ -1,4 +1,5 @@
 body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fffCF2;
     color: #252422;
 }
@@ -75,7 +76,7 @@ body{
     text-decoration: none;
 }
 .nav-bar ul li a:hover{
-    color: #CCC5B9;
+    color: #EB5E28;
     background-color: #252422;
     border-radius: 20px;
 }
@@ -111,6 +112,7 @@ body{
 .links ul li a{
     display: block;
     color: black;
+    text-shadow: 100px;
     text-align: center;
     padding: 15px;
     padding-left: 15px;
@@ -127,41 +129,52 @@ body{
     margin-left: 2%;
 }
 .texto p{
+    color: #fffCF2;
     text-align: justify;
 }
 .patrocinadores{
     position: relative;
+    width: 100%;
     float: left;
+    left: 0;
     bottom: 0;
-    width: 500px;
     height: max-content;
-    border: 3px solid #73a;
+    border: none;
 }
 .patrocinadores .titulo-pat{
-    width: max-content;
-    height: 100px;
-    border: 3px solid #73aaac;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    border: none;
 }
 .patrocinadores .titulo-pat h2{
     text-align: center;
 }
+
 .pat1 img{
     float: left;
-    width: 300px;
-    border: 3px solid #73AD21;
+    width: 33%;
+    height: 100px;
+    box-sizing: border-box;
 }
+
 .pat2 img{
     float: left;
-    width: 300px;
-    border: 3px solid #73AD21;
+    width: 33%;
+    height: 100px;
+    border-left: solid #CCC5B9;
+    border-right: solid #CCC5B9;
+    border-left-style: dashed;
+    border-right-style: dashed;
 }
 .pat3 img{
     float: left;    
-    width: 300px;
-    border: 3px solid #73AD21;
+    width: 32%;
+    height: 100px;
+    box-sizing: border-box;
 }
 .pat4 img{
     float: left;
     width: 300px;
-    border: 3px solid #73AD21;
+    box-sizing: border-box;
 }
