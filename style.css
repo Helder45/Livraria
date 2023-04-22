@@ -178,3 +178,10 @@ body{
     width: 300px;
     box-sizing: border-box;
 }
+.tabela-pat{
+    width: 100%;
+    border: solid;
+}
+.tabela-pat .tabela-cabecalho .linha-cab{
+    border: solid;
+}
