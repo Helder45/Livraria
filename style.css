@@ -187,6 +187,8 @@ body{
 }
 .redes-sociais{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
     bottom: 0;
     height: max-content;
@@ -196,10 +198,13 @@ body{
     margin: 10px;
     position: relative;
     width: 100%;
-    height: fit-content;
-    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    border: solid;
 }
 .redes-sociais .titulo-redes h2{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
