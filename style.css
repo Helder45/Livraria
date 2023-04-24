@@ -133,55 +133,73 @@ body{
     text-align: justify;
 }
 .patrocinadores{
-    position: relative;
-    width: 100%;
+    width: calc(1920/2);
+    margin: auto;
     float: left;
-    left: 0;
     bottom: 0;
     height: max-content;
     border: none;
 }
 .patrocinadores .titulo-pat{
+    margin: 25px 0 0 0;
     position: relative;
     width: 100%;
     height: fit-content;
     border: none;
 }
 .patrocinadores .titulo-pat h2{
+    margin: auto;
     text-align: center;
-}
-
-.pat1 img{
-    float: left;
-    width: 33%;
-    height: 100px;
-    box-sizing: border-box;
-}
-
-.pat2 img{
-    float: left;
-    width: 33%;
-    height: 100px;
-    border-left: solid #CCC5B9;
-    border-right: solid #CCC5B9;
-    border-left-style: dashed;
-    border-right-style: dashed;
-}
-.pat3 img{
-    float: left;    
-    width: 32%;
-    height: 100px;
-    box-sizing: border-box;
-}
-.pat4 img{
-    float: left;
-    width: 300px;
-    box-sizing: border-box;
 }
 .tabela-pat{
     width: 100%;
-    border: solid;
+    margin: 50px 0 0 0;
+    border: none;
 }
-.tabela-pat .tabela-cabecalho .linha-cab{
-    border: solid;
+.tabela-cabecalho th{
+    font-size: 20px;
+    text-align: center;
+    color: #EB5E28;
+    text-decoration: overline underline #CCC5B9;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabela-pat .linha1 .dado1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dado1 img{
+    width: 100%;
+}
+.tabela-pat .linha1 .dado2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dado2 img{
+    width: 100%;
+}
+.tabela-pat .linha1 .dado3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.dado3 img{
+    width: 100%;
+}
+.redes-sociais{
+    width: 100%;
+    float: left;
+    bottom: 0;
+    height: max-content;
+    border: none;
+}
+.redes-sociais .titulo-redes{
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    border: none;
+}
+.redes-sociais .titulo-redes h2{
+    margin: auto;
+    text-align: center;
 }
