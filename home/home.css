@@ -1,0 +1,36 @@
+.livros{
+    padding-top: 10px;
+}
+.livro{
+    display: block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.card{
+    float: left;
+    margin-left: 100px;
+    margin-left: 100px;
+
+}
+.card img{
+    width: auto;
+    height: 300px;
+}
+.card-img-top{
+    top: 0;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    text-align: left;
+}
+.card-text{
+
+}
+.btn{
+
+}
+.btn-primary{
+
+}
