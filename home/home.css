@@ -46,7 +46,8 @@ main{
     text-align: left;
 }
 .card-text{
-
+    text-align: center;
+    font-weight: 600;
 }
 .btn{
     cursor: pointer;
