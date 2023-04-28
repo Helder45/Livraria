@@ -13,13 +13,10 @@ main{
     padding-top: 10px;
 }
 .livro{
-    
     padding-right: 50px;
     padding-left: 50px;
 }
 .card{
-    position: inherit;
-    display: block;
     float: left;
     margin-left: 100px;
     margin-left: 100px;
