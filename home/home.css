@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
 main{
     font-family: 'Nunito', sans-serif;
     margin-top: 10px;
@@ -11,10 +7,17 @@ main{
 }
 
 .livros{
-    width: 100%;
+    float: left;
+    width: calc(100% - 50px);
     height: max-content;
     margin-top: 10px;
     padding-top: 10px;
+}
+.livros h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
 }
 .livro{
     padding-right: 50px;
