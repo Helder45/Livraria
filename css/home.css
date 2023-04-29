@@ -30,7 +30,7 @@ main{
 
 }
 .card img{
-    width: auto;
+    width: 180px;
     height: 300px;
 }
 .card img:hover{
