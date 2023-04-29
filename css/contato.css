@@ -66,5 +66,5 @@ main{
 }
 
 .formulario select{
-    width: 100%;
+    width: calc(100% + 25px);
 }
