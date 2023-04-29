@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="stylesheet" href="../css/header-footer.css">
     <title>Contate-nos!</title>
@@ -27,7 +28,36 @@
         </nav>
     </header>
     <main>
-
+        <div class="container">
+            <div class="titulo">
+                <h2>Contate-nos!</h2>
+                <p>Deixe-nos uma mensagem, ou uma crítica construtiva!</p>
+            </div>
+            <div class="linha">
+                <div class="coluna">
+                    <img src="../img/banner-livraria.png" alt="">
+                </div>
+                <div class="coluna">
+                    <form class="formulario">
+                        <label for="pnome">Primeiro nome</label>
+                        <input type="text" id="pnome" name="primeironome" placeholder="Digite seu nome...">
+                        <label for="unome">Último nome</label>
+                        <input type="text" id="unome" name="ultimonome" placeholder="Digite seu sobrenome...">
+                        <label for="pais">País</label>
+                        <br>
+                        <select id="pais" name="pais">
+                            <option value="brasil">Brasil</option>
+                            <option value="franca">França</option>
+                            <option value="canada">Canada</option>
+                            <option value="argentina">Argentina</option>
+                        </select>
+                        <label for="assunto">Assunto</label>
+                        <textarea id="assunto" name="assunto" placeholder="Escreva algo..."></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="rodape">
         <section class="links-missao">
