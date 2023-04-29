@@ -1,0 +1,71 @@
+main {
+  margin-top: 100px;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+.formulario input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  background-color: chartreuse;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.formulario button:hover {
+  opacity: 0.9;
+  border: 1px solid #000;
+  transform: scale(1.02,1.02);
+  box-shadow: 2px 4px 4px #000;
+}
+
+.container2 .cancelbtn {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: 3px solid #f1f1f1;
+}
+
+.container2 .cadbtn {
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+    background-color: blue;
+    border: 3px solid #f1f1f1;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.avatar img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+
+.container2{
+    padding: 16px;
+    background-color: #f1f1f1;
+}
