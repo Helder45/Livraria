@@ -14,7 +14,7 @@ main{
     padding-top: 10px;
 }
 .livros h2{
-    margin: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
     color: #000;
@@ -77,7 +77,7 @@ main{
     color: #000;
 }
 
-#heart {
+.heart {
     color: #000;
     background-color: red;
 

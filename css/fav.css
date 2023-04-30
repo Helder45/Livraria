@@ -1,85 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 main{
-    background-image: linear-gradient(to top, #020202, #0d2818, #04471C);
-}
-
-.titulo{
-    margin-top: 100px;
-    width: calc(100% - 5px);
-    text-align: center;
-}
-
-.titulo h2{
-    color: #000;
-    text-shadow: 1px 4px 4px #FFF;
-}
-
-.titulo p{
-    color: #ccc;
-}
-
-.formulario{
-    color: #ccc;
-    width: calc(100% - 25px);
-    float: left;
-}
-
-.formulario input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-.formulario input[type=submit] {
-    background-color: blue;
-    color: white;
-    border-radius: 5%;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.formulario input[type=submit]:hover {
-    color: #000;
-    box-shadow: 2px 4px 4px #000;
-    background-color: lightblue;
-}
-
-.container {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    background-color: unset;
-    padding: 10px;
-}
-
-
-.coluna {
-    float: left;
-    width: calc(100% - 10px);
+    font-family: 'Nunito', sans-serif;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.coluna img{
+.livros{
+    float: left;
+    width: calc(100% - 50px);
+    height: max-content;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.livros h2{
+    margin: 20px;
     text-align: center;
-    width: 100%;
+    font-size: 30px;
+    color: #000;
+}
+.livro{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.card{
+    float: left;
+    margin-left: 100px;
+    margin-left: 100px;
+
+}
+.card img{
+    width: 180px;
+    height: 300px;
+}
+.card img:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 2px 4px 4px #000;
+}
+.card-img-top{
+    top: 0;
+    left: 0;
+}
+.card-body{
+    text-align: center;
+}
+.card-body a{
+    color: #000;
+    text-decoration: none;
+}
+.card-body a:hover{
+    text-shadow: #000 10px 10px 10px;
+}
+.card-title{
+    font-size: large;
+    text-align: left;
+}
+.card-text{
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+    cursor: pointer;
+    margin: 1px;
+    width: 80px;
+    height: 35px;
+    background-color: blue;
+    box-shadow: #000 -5px -5px 5px;
+    border: none;
+    color: antiquewhite;
+    font-size: larger;
+    text-align: center;
+}
+.btn:hover{
+    transform: scale(1.10,1.10);
+    font-weight: 600;
+    color: #000;
 }
 
-.linha:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#assunto{
-    height: 170px;
-}
-
-.formulario select{
-    width: calc(100% + 25px);
+.heart {
+    color: #000;
+    background-color: red;
+    width: 110px;
 }
