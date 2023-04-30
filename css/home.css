@@ -61,8 +61,8 @@ main{
 }
 .btn{
     cursor: pointer;
-    margin: 10px;
-    width: 100px;
+    margin: 1px;
+    width: 80px;
     height: 35px;
     background-color: blue;
     box-shadow: #000 -5px -5px 5px;
@@ -75,4 +75,10 @@ main{
     transform: scale(1.10,1.10);
     font-weight: 600;
     color: #000;
+}
+
+#heart {
+    color: #000;
+    background-color: red;
+
 }

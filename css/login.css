@@ -62,16 +62,30 @@ input[type="password"], input[type="email"] {
 }
 
 .avatar img {
-  width: 40%;
+  max-width: 5%;
+  max-height: 5%;
   border-radius: 50%;
 }
 
 .container {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px;
   background-color: #f1f1f1;
 }
 
 .container2{
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 16px;
     background-color: #f1f1f1;
+}
+
+.container3{
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f1f1f1;
 }
