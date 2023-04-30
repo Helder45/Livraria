@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 main{
-    margin-top: 100px;
+    background-image: linear-gradient(to top, #020202, #0d2818, #04471C);
 }
 
 .titulo{
+    margin-top: 100px;
     width: calc(100% - 5px);
     text-align: center;
 }
 
+.titulo h2{
+    color: #000;
+    text-shadow: 1px 4px 4px #FFF;
+}
+
+.titulo p{
+    color: #ccc;
+}
+
 .formulario{
-    width: calc(100% - 50px);
+    color: #ccc;
+    width: calc(100% - 25px);
     float: left;
 }
 
@@ -36,10 +49,12 @@ main{
     background-color: lightblue;
 }
 
-/* Style the container/contact section */
 .container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: unset;
     padding: 10px;
 }
 
